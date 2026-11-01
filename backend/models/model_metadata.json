@@ -1,0 +1,27 @@
+{
+  "architecture": "EfficientNet-B0",
+  "framework": "PyTorch",
+  "image_size": 224,
+  "normalization_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalization_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "class_names": [
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy"
+  ],
+  "test_accuracy": 0.9814241486068112,
+  "train_images": 1506,
+  "validation_images": 323,
+  "test_images": 323,
+  "random_seed": 42,
+  "dataset": "PlantVillage potato classes",
+  "validation_note": "Random stratified split; evaluate on independent field images before claiming real-world generalization."
+}

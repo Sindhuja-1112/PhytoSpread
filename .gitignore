@@ -1,0 +1,53 @@
+
+# Node.js dependencies and build files
+node_modules/
+frontend/node_modules/
+dist/
+dist-ssr/
+frontend/dist/
+.output/
+frontend/.output/
+frontend/.wrangler/
+frontend/.tanstack/
+.vinxi/
+.nitro/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Cloudflare
+.wrangler/
+.dev.vars
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Temporary files
+*.tmp
+*.bak
+*.local
+
+# Editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Keep these project files tracked:
+# backend/potato_dataset/
+# frontend/package-lock.json
